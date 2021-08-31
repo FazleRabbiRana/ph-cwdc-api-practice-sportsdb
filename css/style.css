@@ -1,3 +1,7 @@
+main {
+	min-height: 50vh;
+	padding-bottom: 150px;
+}
 /**
 * Search input
 */
@@ -96,6 +100,13 @@
 #detail_close_btn:hover {
 	opacity: 1;
 }
-main {
-	min-height: 50vh;
+/**
+* Footer
+*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(72, 61, 139, 0.95);
+    z-index: 9;
 }
