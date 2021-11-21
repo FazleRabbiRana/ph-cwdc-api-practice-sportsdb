@@ -9,7 +9,7 @@ document.getElementById('search_btn').addEventListener('click', async () => {
 	} else {
 		document.getElementById('error_notice').textContent = '';
 		document.getElementById('all_teams').textContent = '';
-		const url = `https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t=${searchText}`;
+		const url = `https://www.thesportsdb.com/api/v1/json/2/searchteams.php?t=${searchText}`;
 		try {
 			const res = await fetch(url);
 			const data = await res.json();
